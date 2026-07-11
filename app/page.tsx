@@ -1,10 +1,16 @@
 import RegistrySearch from "@/components/registry-search";
+import RegistrySeal from "@/components/registry-seal";
 import Link from "next/link";
 
 export default function HomePage() {
   return (
     <main>
       <section className="mx-auto max-w-3xl px-6 py-20 text-center">
+        <div className="mb-6 flex justify-center">
+          <span className="flex h-20 w-20 items-center justify-center rounded-full border border-neutral-300 text-neutral-800">
+            <RegistrySeal size={48} />
+          </span>
+        </div>
         <p className="mb-3 text-xs tracking-wide text-neutral-500">
           PUBLIC RECORD OF US SERIES LLC ENTITIES
         </p>

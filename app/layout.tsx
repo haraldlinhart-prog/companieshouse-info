@@ -4,6 +4,7 @@ import Link from "next/link";
 import "./globals.css";
 import CookieBanner from "@/components/cookie-banner";
 import Matomo from "@/components/matomo";
+import RegistrySeal from "@/components/registry-seal";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,9 +36,9 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-white text-neutral-900">
         <header className="border-b border-neutral-100 px-6 py-3.5">
           <div className="mx-auto flex max-w-5xl items-center justify-between">
-            <Link href="/" className="flex items-center gap-2.5">
-              <span className="flex h-7 w-7 items-center justify-center rounded border border-neutral-300 text-sm">
-                &#9878;
+            <Link href="/" className="flex items-center gap-3">
+              <span className="flex h-11 w-11 items-center justify-center rounded-full border border-neutral-300 text-neutral-800">
+                <RegistrySeal size={28} />
               </span>
               <span>
                 <p className="text-sm font-medium leading-tight">
