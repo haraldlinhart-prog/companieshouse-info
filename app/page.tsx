@@ -87,6 +87,9 @@ export default function HomePage() {
 <a href="https://german-quality.net" target="_blank" rel="noopener"><img src="https://german-quality.net/banner.svg" alt="German Quality" height={60} style={{borderRadius:'4px'}} /></a>
 </div>
 {/* <!-- DIRECTORIES:END --> */}
+{/* <!-- CUSTOM_HTML:counter:START --> */}
+<div dangerouslySetInnerHTML={{__html: "<div style=\"display:flex; justify-content:center; margin: 16px 0;\">\n  <div id=\"pan21counter\"></div>\n</div>\n<script src=\"https://pan21counter.de/c.js?id=71DD28\" async></script>"}} />
+{/* <!-- CUSTOM_HTML:counter:END --> */}
 </main>
   );
 }
