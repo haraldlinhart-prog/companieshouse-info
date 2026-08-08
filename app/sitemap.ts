@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://companieshouse.info";
+  const base = "https://www.companieshouse.info";
   const paths = [
     "",
     "/portal",
