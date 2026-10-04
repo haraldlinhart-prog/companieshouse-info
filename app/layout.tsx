@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Companies House Info | US Series LLC Registry",
   description:
     "Unabhängiges öffentliches Register für US Series LLC Gesellschaften. Registrierung einsehen, Zertifikat und Operating Agreement herunterladen, jährliche Bestätigung durchführen.",
-  metadataBase: new URL("https://companieshouse.info"),
+  metadataBase: new URL("https://www.companieshouse.info"),
 };
 
 export default function RootLayout({
