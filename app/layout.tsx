@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
-import CookieBanner from "@/components/cookie-banner";
-import Matomo from "@/components/matomo";
 import RegistrySeal from "@/components/registry-seal";
 
 const geistSans = Geist({
@@ -77,9 +75,6 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
-
-        <CookieBanner />
-        <Matomo />
       </body>
     </html>
   );

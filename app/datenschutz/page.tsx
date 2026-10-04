@@ -40,15 +40,6 @@ export default function DatenschutzPage() {
       </p>
 
       <h2 className="mb-2 mt-6 text-base font-medium text-neutral-900">
-        Analyse (Matomo)
-      </h2>
-      <p className="mb-6">
-        Nach Ihrer Zustimmung im Cookie-Banner nutzen wir Matomo, gehostet auf
-        eigenen Servern, zur anonymisierten Reichweitenmessung. Es findet
-        keine Datenweitergabe an Dritte statt.
-      </p>
-
-      <h2 className="mb-2 mt-6 text-base font-medium text-neutral-900">
         Kontaktformular
       </h2>
       <p>
