@@ -64,9 +64,8 @@ export default function RootLayout({
         <footer className="border-t border-neutral-100 px-6 py-6">
           <div className="mx-auto flex max-w-5xl flex-col gap-2 text-xs text-neutral-500 sm:flex-row sm:items-center sm:justify-between">
             <p>
-              Impressum: operated by PAN21.COM Corporate Consultants Ltd, 61
-              Bridge Street, Kington, Herefordshire HR5 3DJ, UK (Company No.
-              16117708)
+              Operated by PAN21.com International LLC, 7533 South Center View CT,
+              STE R, West Jordan, UT 84084, USA
             </p>
             <div className="flex gap-4">
               <Link href="/impressum">Impressum</Link>
