@@ -73,6 +73,12 @@ export default function RootLayout({
               <Link href="/kontakt">Kontakt</Link>
             </div>
           </div>
+          {/* Verzeichnis-Banner: Swiss Quality, German Quality, FFA-Links */}
+          <div style={{ display:"flex", justifyContent:"center", gap:"12px", flexWrap:"wrap", margin:"1rem 0 0" }}>
+            <a href="https://www.swiss-quality.de/ref/8e80f0181a5eae971e" target="_blank" rel="noopener"><img src="https://www.swiss-quality.de/banner.svg" width="120" height="60" alt="Swiss Quality" /></a>
+            <a href="https://www.german-quality.net/ref/a3e1fa3a0d7ba75e77" target="_blank" rel="noopener"><img src="https://www.german-quality.net/banner.svg" width="120" height="60" alt="German Quality" /></a>
+            <a href="https://www.ffa-links.de/ref/c780d7ad2c6241e7c2" target="_blank" rel="noopener"><img src="https://www.ffa-links.de/banner.svg" width="120" height="60" alt="FFA-Links" /></a>
+          </div>
         </footer>
       </body>
     </html>
