@@ -79,6 +79,12 @@ export default function RootLayout({
             <a href="https://www.german-quality.net/ref/a3e1fa3a0d7ba75e77" target="_blank" rel="noopener"><img src="https://www.german-quality.net/banner.svg" width="120" height="60" alt="German Quality" /></a>
             <a href="https://www.ffa-links.de/ref/c780d7ad2c6241e7c2" target="_blank" rel="noopener"><img src="https://www.ffa-links.de/banner.svg" width="120" height="60" alt="FFA-Links" /></a>
           </div>
+          {/* Tool-Badges: site-ok.de, kaputte-links.de, pagespeed-plus.de */}
+          <div style={{ display:"flex", justifyContent:"center", gap:"12px", flexWrap:"wrap", margin:"1rem 0 0" }}>
+            <a href="https://www.site-ok.de/status.html?key=9czgiaj69e" target="_blank" rel="noopener"><img src="https://www.site-ok.de/api/badge?key=9czgiaj69e" alt="Site-Status" width="320" height="80" /></a>
+            <a href="https://www.kaputte-links.de/status.html?key=9pqd1bch2e" target="_blank" rel="noopener"><img src="https://www.kaputte-links.de/api/badge?key=9pqd1bch2e" alt="Link-Status" width="320" height="80" /></a>
+            <a href="https://www.pagespeed-plus.de/status.html?key=bb0rpn258z" target="_blank" rel="noopener"><img src="https://www.pagespeed-plus.de/api/badge?key=bb0rpn258z" alt="PageSpeed Score" /></a>
+          </div>
         </footer>
       </body>
     </html>
